@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test_Pro">
+   <parameter name = "city" value = "Pune"></parameter>
+  <parameter name = "add1" value = "Pune"></parameter>
+  <parameter name = "add2" value = "Pune"></parameter>
+  <parameter name = "zip" value = "405411"></parameter>
+  <parameter name = "ph" value = "9511248225"></parameter>
+    <classes>
+      <class name="com.project.Test_Pro"/>
+    </classes>
+  </test> <!-- Test_Pro -->
+</suite> <!-- Suite -->

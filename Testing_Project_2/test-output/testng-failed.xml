@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_Pro(failed)">
+    <parameter name="zip" value="405411"/>
+    <parameter name="city" value="Pune"/>
+    <parameter name="ph" value="9511248225"/>
+    <parameter name="add2" value="Pune"/>
+    <parameter name="add1" value="Pune"/>
+    <classes>
+      <class name="com.project.Test_Pro">
+        <methods>
+          <include name="checkout"/>
+          <include name="manage"/>
+          <include name="address" invocation-numbers="0"/>
+          <include name="openbrowser"/>
+          <include name="m1"/>
+          <include name="geturl"/>
+        </methods>
+      </class> <!-- com.project.Test_Pro -->
+    </classes>
+  </test> <!-- Test_Pro(failed) -->
+</suite> <!-- Failed suite [Suite] -->
