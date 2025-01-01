@@ -5,8 +5,9 @@
     <classes>
       <class name="com.project.Test_Pro">
         <methods>
+          <include name="checkout"/>
           <include name="manage"/>
-          <include name="Book"/>
+          <include name="address"/>
           <include name="openbrowser"/>
           <include name="m1"/>
           <include name="geturl"/>
